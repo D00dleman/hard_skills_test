@@ -93,5 +93,3 @@ mv "$archive_file_name" "$archive_dir/$archive_file_name"
 mv "$archive_file_md5_name" "$archive_dir/$archive_file_md5_name"
 
 rm $result_file_name
-
-exit 0
