@@ -82,7 +82,8 @@ if [ -e $archive_dir/$archive_file_name ]; then
         rm $result_file_name
         exit 0
     else
-        echo "Archive incorrect. Replace..."
+        echo "Archive incorrect."
+        exit 1
     fi
 fi
 
